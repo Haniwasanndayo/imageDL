@@ -49,7 +49,7 @@ for i in range(len(img_src)):
    md5.update(img_src[i].encode('utf-8'))
    img_hash= md5.hexdigest()
    # 保存先のディレクトリは自分で指定(もっと上手いやり方ありそう)
-   dst_dir = 'C:/Users/n1270122.STCN2/Desktop/Application/pictmp/' + img_hash + ".jpg"
+   dst_dir = 'C:/hoge/hogehoge/Desktop/Application/pictmp/' + img_hash + ".jpg"
    # dst_path = os.path.join(*dst_dir, os.path.basename("ddd"))
    download_image(img_src[i], dst_dir)
    print(i)
